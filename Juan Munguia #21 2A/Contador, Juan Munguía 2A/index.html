@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador con alarma</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <input type="number" id="segundos">
+    <button onclick="contador()">Iniciar</button>
+    <button onclick="reiniciar()">Reiniciar</button>
+    <h2 id="salida">OFF</h2>
+
+    <audio id="alarma" controls>
+        <source src="Please don't touch anything.mp3" type="audio/mpeg">    - arreglar esto, sustituir la cancion 
+        Reproduciendo audio de siren.
+    </audio>
+
+
+</body>
+
+</html>
